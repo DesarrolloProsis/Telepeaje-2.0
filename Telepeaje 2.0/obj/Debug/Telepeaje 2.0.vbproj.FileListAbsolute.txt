@@ -1,0 +1,77 @@
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Oracle.DataAccess.dll
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojResolveAssemblyReference.cache
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.Cache
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+C:\Users\rodrigomendozarojas\source\repos\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojResolveAssemblyReference.cache
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.Cache
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+C:\Users\PCS186-OPE01\Documents\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojAssemblyReference.cache
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.cache
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CopyComplete
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\Telepeaje\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojAssemblyReference.cache
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.cache
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CopyComplete
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\Telepeaje-24 julio\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojAssemblyReference.cache
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.cache
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CopyComplete
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+\\Mac\Home\Desktop\SoftwareBuenoBueno\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.cache
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CopyComplete
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+C:\Users\Rodrigo\Desktop\Telepeaje 2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
