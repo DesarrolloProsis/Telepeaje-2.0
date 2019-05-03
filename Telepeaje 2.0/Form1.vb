@@ -70,13 +70,16 @@ Public Class Form1
                 PathTemporal = "c:\temporal\Antifraude\LSTABINT."
                 ArchivoAntifraude()
                 If banderaAntifraude = True Then
-                    'encabezados()
-                    'vDestino = DestinoAntifraude & "LSTABINT."
-                    'CopiarCarpeta()
-                    'AumentarExt()
-                    creararchivos()
-                    'despues de crear el archivo lo vuelve falso
+                    encabezados()
+                    vDestino = DestinoAntifraude & "LSTABINT."
+                    GuardarArchivos()
+                    CopiarCarpeta()
                     banderaAntifraude = False
+
+                    'creararchivos()
+                    banderaAntifraude = False
+                    'despues de crear el archivo lo vuelve falso
+
                 End If
             End If
             list.Clear()
@@ -231,11 +234,6 @@ Public Class Form1
                 cmd.ExecuteNonQuery()
 
                 If Not NombreCaseta = "XOCHITEPEC" Or NombreCaseta = "AEROPUERTO" Or NombreCaseta = "EMILIANOZAPATA" Or NombreCaseta = "TRESMARIAS" Then
-
-
-                    ''''''''''''''' Monto Minimo''''''''''''''''''''''''''''''''''
-
-
 
                     consulta = "UPDATE ListaValidaciones SET Saldo = ListaTemporal.Saldo, Estatus = ListaTemporal.Estatus, Tipo = ListaTemporal.tipo  FROM ListaTemporal where ListaTemporal.Tag = ListaValidaciones.Tag and ListaValidaciones.EstatusResidente = '00'"
                     cmd = New SqlCommand(consulta, oConexion)
@@ -444,196 +442,6 @@ Public Class Form1
                     CopiarCarpeta()
                     banderaAntifraude = False
                 End If
-            ElseIf NombreCaseta = "ALPUYECA" Then
-                'PathTemporal = "c:\temporal\LSTABINT."
-                'ArchivoNormal()
-                'encabezados()
-                'CopiarCarpeta()
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    GuardarArchivos()
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
-
-            ElseIf NombreCaseta = "PASOMORELOS" Then
-                PathTemporal = "c:\temporal\LSTABINT."
-                ArchivoNormal()
-                encabezados()
-                CopiarCarpeta()
-            ElseIf NombreCaseta = "PALOBLANCO" Then
-                PathTemporal = "c:\temporal\LSTABINT."
-                ArchivoNormal()
-                encabezados()
-                CopiarCarpeta()
-            ElseIf NombreCaseta = "LAVENTA" Then
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-            ElseIf NombreCaseta = "XOCHITEPEC" Then
-                'creamos el archivo Residentes'
-                PathTemporal = "c:\temporal\Residentes\LSTABINT."
-                ArchivoResidentes()
-                encabezados()
-                vDestino = DestinoResidentes & "LSTABINT."
-                CopiarCarpeta()
-            ElseIf NombreCaseta = "AEROPUERTO" Then
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    GuardarArchivos()
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-            ElseIf NombreCaseta = "EMILIANOZAPATA" Then
-                'PathTemporal = "c:\temporal\LSTABINT."
-                'ArchivoNormal()
-                'encabezados()
-                'CopiarCarpeta()
-
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    'vDestino = "\\192.168.0.90\geaint\PARAM\DK"
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-            ElseIf NombreCaseta = "TLALPAN" Then
-                PathTemporal = "c:\temporal\LSTABINT."
-                ArchivoNormal()
-                encabezados()
-                CopiarCarpeta()
-            ElseIf NombreCaseta = "TRESMARIAS" Then
-                'PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                'ArchivoMontoMinimo()
-                'encabezados()
-                ''vDestino = "\\192.168.0.85\ListasTelepeaje\MontoMinimo\LSTABINT."
-                'vDestino = DestinoMontominimo & "LSTABINT."
-                'CopiarCarpeta()
-                'borrararchivosMontominimo()
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    'vDestino = "\\192.168.0.90\geaint\PARAM\DK"
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-            ElseIf NombreCaseta = "FRANCISCOVELASCO" Then
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-            ElseIf NombreCaseta = "CerroGordo" Then
-
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-                'montominimo
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
-
-            ElseIf NombreCaseta = "LibsurPte" Then
-
-                'creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-                'montominimo 
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
-            ElseIf NombreCaseta = "Queretaro" Then
-
-                ''creamos el archivo Antifraude''
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-                'Montominnimo
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
-
-            ElseIf NombreCaseta = "VillaGrand" Then
-                'creamos el archivo Antifraude'
-                PathTemporal = "c:\temporal\Antifraude\LSTABINT."
-                ArchivoAntifraude()
-                If banderaAntifraude = True Then
-                    encabezados()
-                    vDestino = DestinoAntifraude & "LSTABINT."
-                    CopiarCarpeta()
-                    banderaAntifraude = False
-                End If
-
-                'creamos el archivo Montominimo'
-                PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
-                ArchivoMontoMinimo()
-                encabezados()
-                vDestino = DestinoMontominimo & "LSTABINT."
-                CopiarCarpeta()
-                BorrararchivosMontominimo()
 
             ElseIf NombreCaseta = "Tepotzotlan" Then
                 'creamos el archivo Antifraude'
@@ -688,74 +496,6 @@ Public Class Form1
             My.Computer.FileSystem.DeleteFile(vDestino & extension)
             File.Move(PathTemporal & extension, vDestino & extension)
         End If
-    End Sub
-
-    Private Sub GuardarArchivos()
-
-        Dim mes = Format(DateTime.Now, "MM")
-
-        Dim año = Format(DateTime.Now, "yyyy")
-
-        Dim DestinoZip = "D:\Historial\"
-
-        If mes = 1 Then
-            mes = "enero"
-        ElseIf mes = 2 Then
-            mes = "febrero"
-        ElseIf mes = 3 Then
-            mes = "marzo"
-        ElseIf mes = 4 Then
-            mes = "abril"
-        ElseIf mes = 5 Then
-            mes = "mayo"
-        ElseIf mes = 6 Then
-            mes = "junio"
-        ElseIf mes = 7 Then
-            mes = "julio"
-        ElseIf mes = 8 Then
-            mes = "agosto"
-        ElseIf mes = 9 Then
-            mes = "septiembre"
-        ElseIf mes = 10 Then
-            mes = "octubre"
-        ElseIf mes = 11 Then
-            mes = "noviembre"
-        ElseIf mes = 12 Then
-            mes = "diciembre"
-        End If
-
-        DestinoZip = DestinoZip & año & "\" & mes & "\" & Format(DateTime.Now, "dd") & "\"
-        exists = Directory.Exists(DestinoZip)
-        If exists = False Then
-            Directory.CreateDirectory(DestinoZip)
-        End If
-
-        Dim startPath = PathTemporal & extension
-
-
-        If File.Exists(DestinoZip & "LSTABINT." & extension) = False Then
-            Using zip As ZipFile = New ZipFile()
-
-                zip.AddFile(startPath, "")
-
-                zip.Save(DestinoZip & extension & ".zip")
-
-
-            End Using
-            'ZipFile.CreateFromDirectory(startPath, DestinoZip & extension & ".zip")
-        Else
-            My.Computer.FileSystem.DeleteFile(DestinoZip & "LSTABINT." & extension)
-            Using zip As ZipFile = New ZipFile()
-
-                zip.AddFile(extension, "")
-
-                zip.Save("MyZipFile.zip")
-
-
-            End Using
-            'ZipFile.CreateFromDirectory(DestinoZip, "LSTABINT." & extension)
-        End If
-
     End Sub
 
     Private Sub AumentarExt()
@@ -845,6 +585,7 @@ Public Class Form1
                     cmd = New SqlCommand(consulta, oConexion)
                     cmd.CommandTimeout = 3 * 60
                     cmd.ExecuteNonQuery()
+
                     consulta = "update listaValidaciones set Estatus = '00' where tag = '" & tag & "'"
                     cmd = New SqlCommand(consulta, oConexion)
                     cmd.CommandTimeout = 3 * 60
@@ -961,6 +702,74 @@ Public Class Form1
 
         If File.Exists(DestinoMontominimo & "LSTABINT." & ExtensionMontoMinimo) Then
             My.Computer.FileSystem.DeleteFile(DestinoMontominimo & "LSTABINT." & ExtensionMontoMinimo)
+        End If
+
+    End Sub
+
+    Private Sub GuardarArchivos()
+
+        Dim mes = Format(DateTime.Now, "MM")
+
+        Dim año = Format(DateTime.Now, "yyyy")
+
+        Dim DestinoZip = "D:\Historial\"
+
+        If mes = 1 Then
+            mes = "enero"
+        ElseIf mes = 2 Then
+            mes = "febrero"
+        ElseIf mes = 3 Then
+            mes = "marzo"
+        ElseIf mes = 4 Then
+            mes = "abril"
+        ElseIf mes = 5 Then
+            mes = "mayo"
+        ElseIf mes = 6 Then
+            mes = "junio"
+        ElseIf mes = 7 Then
+            mes = "julio"
+        ElseIf mes = 8 Then
+            mes = "agosto"
+        ElseIf mes = 9 Then
+            mes = "septiembre"
+        ElseIf mes = 10 Then
+            mes = "octubre"
+        ElseIf mes = 11 Then
+            mes = "noviembre"
+        ElseIf mes = 12 Then
+            mes = "diciembre"
+        End If
+
+        DestinoZip = DestinoZip & año & "\" & mes & "\" & Format(DateTime.Now, "dd") & "\"
+        exists = Directory.Exists(DestinoZip)
+        If exists = False Then
+            Directory.CreateDirectory(DestinoZip)
+        End If
+
+        Dim startPath = PathTemporal & extension
+
+
+        If File.Exists(DestinoZip & "LSTABINT." & extension) = False Then
+            Using zip As ZipFile = New ZipFile()
+
+                zip.AddFile(startPath, "")
+
+                zip.Save(DestinoZip & extension & ".zip")
+
+
+            End Using
+            'ZipFile.CreateFromDirectory(startPath, DestinoZip & extension & ".zip")
+        Else
+            My.Computer.FileSystem.DeleteFile(DestinoZip & "LSTABINT." & extension)
+            Using zip As ZipFile = New ZipFile()
+
+                zip.AddFile(extension, "")
+
+                zip.Save("MyZipFile.zip")
+
+
+            End Using
+            'ZipFile.CreateFromDirectory(DestinoZip, "LSTABINT." & extension)
         End If
 
     End Sub
