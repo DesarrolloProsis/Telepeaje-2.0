@@ -179,6 +179,10 @@ Public Class Form1
                 cmd = New SqlCommand(consulta, oConexion)
                 cmd.CommandTimeout = 3 * 60
                 cmd.ExecuteNonQuery()
+                consulta = "update ListaAntifraude set Estatus = '00' where tag like 'OHLM%' AND SALDO = '22000'"
+                cmd = New SqlCommand(consulta, oConexion)
+                cmd.CommandTimeout = 3 * 60
+                cmd.ExecuteNonQuery()
                 ''''''''''''''' Fin Antifraude''''''''''''''''''''''''''''''''''
 
                 ''''''''''''''' Monto Minimo''''''''''''''''''''''''''''''''''
