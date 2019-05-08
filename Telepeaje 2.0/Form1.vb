@@ -331,6 +331,11 @@ Public Class Form1
                 cmd.CommandTimeout = 3 * 60
                 cmd.ExecuteNonQuery()
 
+                consulta = "INSERT INTO ListaValidaciones SELECT * FROM  listaresidentes lT WHERE NOT EXISTS (SELECT LT.TAG FROM ListaValidaciones LI WHERE LT.Tag = LI.Tag)"
+                cmd = New SqlCommand(consulta, oConexion)
+                cmd.CommandTimeout = 3 * 60
+                cmd.ExecuteNonQuery()
+
                 'consulta = "update ListaAntifraude set saldo = cast(saldo as varchar(8)) where saldo > 99999999"
                 'cmd = New SqlCommand(consulta, oConexion)
                 'cmd.CommandTimeout = 3 * 60

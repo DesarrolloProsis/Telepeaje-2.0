@@ -88,3 +88,16 @@ C:\Users\006OPR02\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepea
 C:\Users\006OPR02\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
 C:\Users\006OPR02\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
 C:\Users\006OPR02\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe.config
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.exe
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.pdb
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\bin\Debug\Telepeaje 2.0.xml
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbprojAssemblyReference.cache
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Form1.resources
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje_2._0.Resources.resources
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.GenerateResource.cache
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.vbproj.CopyComplete
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.exe
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.xml
+C:\Users\Rodrigo\Documents\GitHub\Telepeaje-2.0\Telepeaje 2.0\obj\Debug\Telepeaje 2.0.pdb
