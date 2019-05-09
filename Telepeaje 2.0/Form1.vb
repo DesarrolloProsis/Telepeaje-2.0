@@ -76,9 +76,17 @@ Public Class Form1
                     CopiarCarpeta()
                     banderaAntifraude = False
 
-                    'creararchivos()
+
                     banderaAntifraude = False
                     'despues de crear el archivo lo vuelve falso
+                    PathTemporal = "c:\temporal\MontoMinimo\LSTABINT."
+                    ArchivoMontoMinimo()
+                    encabezados()
+                    vDestino = DestinoMontominimo & "LSTABINT."
+
+                    CopiarCarpeta()
+                    BorrararchivosMontominimo()
+                    AumentarExt()
 
                 End If
             End If
